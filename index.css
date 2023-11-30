@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+p{
+    color: rgb(4, 66, 66)
+    ;
+}
+.navbar{
+    background-color: rgb(205, 246, 255);
+    display: flex;
+    justify-content: end;
+}
+.navbar a{
+    padding: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.jumbotron{
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.jumbotron img{
+    z-index: -3;
+    position: absolute;
+    width: 100%;
+    
+}
+.jumbotron h2{
+    width: 900px;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-left: 50vh;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    
+}
+.jumbotron p{
+    width: 1000px;
+    text-align: center;
+    margin-left: 48vh;
+    font-size: 25px;
+    color: rgb(10, 71, 70);
+}
+.intro{
+    box-shadow: 3px -3px 7px 0px blue;
+    margin: 30px 30px 0px 30px;
+    border-radius: 10px;
+}
+.desc{
+    padding: 10px;
+}
+ 
+ .desc img{
+    margin-left: 66vh;
+ }
+.desc p{
+    text-align: center;
+}
+ .footer{
+    background-color: rgb(205, 246, 255);
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+}
+  
+.footer p{
+    font-family: 'Martian Mono', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(4, 66, 66);
+    width: 800px;
+    text-align: center;
+    margin-left: 48vh;
+    
+    
+}
+  .footer b{
+    color: rgb(7, 162, 159)
+  }
